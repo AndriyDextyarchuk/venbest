@@ -1,0 +1,27 @@
+.container {    
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+   
+}
+
+.fild {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.fild:not(:first-child) {
+    margin-top: 15px;
+}
+
+.container input {
+    margin-left: 15px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 500;
+}
